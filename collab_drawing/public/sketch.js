@@ -41,7 +41,7 @@ function mouseDragged() {
 
 	socket.emit('mouse', data);
 
-	//self drawing
+	// self drawing
 	fill(0);
 	stroke(0);
 	ellipse(mouseX, mouseY, 10, 10);
